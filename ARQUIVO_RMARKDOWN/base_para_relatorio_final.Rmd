@@ -44,7 +44,14 @@ Organize um paragrafo aqui se necessário.
 ```{r diogo2, include=TRUE}
 # tarefas compartilhadas pelo WhatsApp
 # - Carregar os dados
+
+
+
 # Shape de um município da Mata Atlântica (ex. Una/BA via geobr).
+
+
+
+
 # Raster de temperatura média mensal do WorldClim.
 # - Preparar os dados
 # Reprojetar tudo para WGS84.
@@ -69,9 +76,21 @@ A pratica relacionada com a elaboracao de um relatorio em **R Markdown** devera 
 
 ```{r GGPLOT2_exemplo1, include=TRUE}
 # inclua a conexão com seus dados
+
+
+
 # use include=FALSE se conectar dados reais
+
+
+
 # use include=TRUE se conectar dados fictícios
+
+
+
 # desenvolva suas análises e/ou graficos de acordo com seus interesses pessoais
+
+
+
 # organize a apresentação de seus resultados com chunks e/ou comentários separados   
 ```
 

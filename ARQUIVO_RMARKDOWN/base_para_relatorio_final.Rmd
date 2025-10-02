@@ -18,6 +18,10 @@ knitr::opts_chunk$set(echo = TRUE)
 - **AULA SOBRE PACOTE TERRA** <https://rppgecb.github.io/usando_terra/>
 - **LIVRO GGPLOT2** <https://ggplot2-book.org/>
 
+### Link: aula gravada para Isabelly Domiciano
+- <https://drive.google.com/file/d/1Xjb3vDbsZNfxHJcnc6yoSykwVl6sA0bZ/view?usp=sharing>
+- Favor não compartilhar fora de nossa nossa turma.
+
 ## EXERCÍCIOS DOS MODULOS DO PROFESSOR DIOGO 
 
 ### SUBTÍTULO <- primeira subsecao da aula do Diogo aqui

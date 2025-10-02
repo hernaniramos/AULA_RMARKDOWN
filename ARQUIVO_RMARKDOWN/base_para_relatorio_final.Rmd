@@ -1,0 +1,79 @@
+---
+title: "RELATORIO FINAL"
+author: "ATUALIZE SEU NOME AQUI"
+date: 'PRAZO: 10 OUT 2025'
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# LINKS UTEIS COMPARTILHADOS NAS AULAS
+
+- **LIVRO R** <https://pt.r4ds.hadley.nz/>
+- **Site RSPATIAL** <https://rspatial.org/analysis/index.html>
+- **AULA SOBRE PACOTE TERRA** <https://rppgecb.github.io/usando_terra/>
+- **LIVRO GGPLOT2** <https://ggplot2-book.org/>
+
+## EXERCÍCIOS DOS MODULOS DO PROFESSOR DIOGO 
+
+### SUBTÍTULO <- primeira subsecao da aula do Diogo aqui
+
+Organize um paragrafo aqui se necessario. 
+
+```{r diogo1, include=TRUE}
+# especifique o que vc vai fazer aqui
+# inclua seu script r aqui neste chunk
+minha_nota = 10 # exemplo
+minha_nota
+```
+
+OBS: faça seus comentários aqui.
+
+### SUBTÍTULO <- segunda subseção da aula do Diogo aqui
+
+Organize um paragrafo aqui se necessário.
+
+```{r diogo2, include=TRUE}
+# tarefas compartilhadas pelo WhatsApp
+# - Carregar os dados
+# Shape de um município da Mata Atlântica (ex. Una/BA via geobr).
+# Raster de temperatura média mensal do WorldClim.
+# - Preparar os dados
+# Reprojetar tudo para WGS84.
+# Recortar e mascarar o raster pela área do município.
+# - Criar amostras e áreas de influência
+# Gerar pontos de amostragem aleatórios dentro do município (como se fossem parcelas de campo).
+# Criar buffers de 1 km em torno desses pontos (representando área de influência da parcela).
+# - Extrair e resumir informações ecológicas
+# Calcular a média anual de temperatura a partir das 12 bandas.
+# Usar extract() para obter a temperatura média anual em cada buffer.
+# Comparar a temperatura dentro dos buffers vs média do município todo.
+# - Visualizar e interpretar
+# Mapa final mostrando município, pontos de amostragem, buffers e raster de temperatura.
+# OBS: Hernani recomenda subdividir estas tarefas em chunks separados, mas atenção, nãopodem haver dois chunks com o mesmo nome.  
+```
+
+OBS: faca seus comentarios aqui.
+
+## EXERCICIOS DOS MODULOS DO PROFESSOR HERNANI
+
+A pratica relacionada com a elaboracao de um relatorio em **R Markdown** devera ser organizada neste mesmo documento que devera ser renderizado e entregue em **PDF**. Favor encaminhar o link para acesso ao PDF em seu repositorio no Github.
+
+```{r GGPLOT2_exemplo1, include=TRUE}
+# inclua a conexão com seus dados
+# use include=FALSE se conectar dados reais
+# use include=TRUE se conectar dados fictícios
+# desenvolva suas análises e/ou graficos de acordo com seus interesses pessoais
+# organize a apresentação de seus resultados com chunks e/ou comentários separados   
+```
+
+OBS: faça seus comentários aqui.
+
+**ATENÇÃO - LEMBRE-SE DE CONTRIBUIR AVALIANDO A DISCIPLINA**
+- <https://www.ecologiauesc.com/avaliacao-disciplinas>
+
+~ FIM ~
